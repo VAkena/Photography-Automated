@@ -4,6 +4,11 @@
 import cv2
 import argparse
 import glob
+import logging
+
+# Configure logging to file
+logging.basicConfig(level=logging.DEBUG, filename="log.log",
+                    format='%(asctime)s - %(name)s - %(levelname)s - Line number: %(lineno)d - %(message)s', filemode='w')
 
 
 def main():
