@@ -16,4 +16,4 @@ A collection of scripts to speed up the post production elements of photography
 
 ## Requirements
 
-`TBD`
+`OpenCV: pip install opencv-python`
